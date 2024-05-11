@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int SubArrays(int arr[], int n ){
+for(int start = 0; start <n ; start++){
+for(int end =start ; end = end<n ; end ++){
+cout<< "The start element is <<start << "The end element is << end <<endl;
+}
+cout<<endl;
+}
+int main(){
+int arr [5]={5,7,4,9,6,2};
+int n = sizeof(arr)/sizeof(int);
+int SubArrays(arr, n);
+return 0;
+}
