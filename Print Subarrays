@@ -4,7 +4,7 @@ int SubArrays(int arr[], int n ){
 for(int start = 0; start <n ; start++){
 for(int end =start ; end = end<n ; end ++){
 // cout<< "(" << start <<", "<< end<< ")" <<endl;To check the expected result 
-for(int i=start; i = <=end; i++){
+for(int i=start; i <=end; i++){
 cout<<arr[i];
 }
 cout<<endl;
