@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+void MaxSumarray(int arr[], int n){
+int maxSum = INT_MIN;
+for(int start = 0 ; start<n ; start++){
+for(int end = start; end <n ; end++){
+int currSum =0;
+for (int i =start; i<=end; i++){
+currSum =+ arr[i];
+}
+cout<<currSum<",";
+maxSum = max(maxSum,currSum);
+}
+cout<<endl;
+}
+out<< maxSum <<endl;
+}
+int main(){
+int arr[5] = {5,6,7,8,9}
+int n = sizoef(arr)/sizeof(int);
+MaxSumarray(arr,n);
+return 0;
+}
