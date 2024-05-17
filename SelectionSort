@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int selectionSort(int arr[], int n){
+for(i=0;i<n-1;i++){
+int minIdx=i;
+for(j=i+1; j<n;i++){
+if (arr[j]<arr[minIdx]){
+arr[minIdx]=j;
+}
+}
+swap(arr[i], arr[minIdx]);
+}
+}
+int main(){
+int arr []={};
+int n = sizeof(arr)/sizeof(int);
+selectionSort(arr, n);
+}
